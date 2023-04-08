@@ -1,0 +1,118 @@
+CHANGELOG
+=========
+
+3.8.0 (2019-11-15)
+------------------
+* Moodle 3.8 compatible version
+
+3.7.1 (2019-11-15)
+------------------
+* [FEATURE] - support filter in course fullname and summary  [github pull @lucaboesch]
+
+3.7.0 (2019-05-20)
+------------------
+* Moodle 3.7 compatible version
+
+3.6.1 (2019-05-07)
+------------------
+* [BUG] Fix github #10 - Fix tiny typo in one English language string. PULL request submitted from Germán Valero
+* [BUG] Fix github #9 - Remove unnecessary space before semester title. PULL request submitted from Luca Bösch
+
+3.6 (2018-12-10)
+------------------
+* Moodle 3.6 compatible version
+* [BUG] #5865 (GitHub #8) - fix php Notice on fresh install
+* [FEATURE] #5757 - implement additional Privacy API functions
+* [FEATURE] #3844 - implement unread forum posts count
+
+3.5.0 (2018-05-??)
+------------------
+* Moodle 3.5 compatible version
+* [FEATURE] Implement Privacy API
+* [FEATURE] remove german language strings
+
+3.4.0 (2017-11-13)
+------------------
+
+* Moodle 3.4 compatible version
+* [UPDATE] fix codechecker warnings and errors
+* [FIXED] move user personal sorting settings to a separate db table due to user_preference length limitation
+* [FEATURE] add "Archive" section
+* [BUG] improve performance when loading course events by introducing two new settings - 'Autocollapse courses'
+  and 'Skip older events'
+
+3.3.0 (2017-05-14)
+------------------
+
+* Moodle 3.3 compatible version
+* [FEATURE] use course events as in the core my_overview block
+* [FEATURE] use Mustache templates to render course events
+* [DEPRECATED] use of modname_print_overview()
+
+
+3.2.0 (2017-02-05)
+------------------
+
+* Moodle 3.2 compatible version
+* [FEATURE] #3782 Rename web service to semester_sortierung Web service
+* [REMOVED] #3688 Deprecated $plugin->cron
+
+
+3.1.1 (2016-09-21)
+------------------
+
+* [FIXED] #3694 Months in settings.php to work in all time zones
+
+
+3.1.0 (2016-07-28)
+------------------
+
+* Moodle 3.1 compatible version
+* [FEATURE] Add external web service
+* [FIXED] #3574 Long course/assignment names
+* Added behat tests
+
+
+3.0.0 (2016-03-28)
+------------------
+
+* Moodle 3.0 compatible version
+* [FIXED] #3108 German lang file
+
+
+2.9 (2015-10-14)
+----------------
+
+* Moodle 2.9 compatible version
+* [FIXED] #2713 Bug with adding course to favorites - course can be added more
+  than once
+
+
+2.8.1 (2015-09-18)
+------------------
+
+* [FIXED] #2647: Star icon layout
+
+
+2.8 (2015-05-25)
+----------------
+
+* Moodle 2.8 compatible version
+* [FEATURE] #1970 Add personal sorting capability
+* [CHANGED] #2354 Fix code to pass code checker
+* [FIXED] #2337 Enable user to delete the block in his own my moodle page
+
+
+2.7 (2014-12-08)
+----------------
+
+* Moodle 2.7 compatible version
+* [FIXED] #2072 Changed settings plugin name to block_semester_sortierung, fix
+  bug with config
+* [Fixed] version.php and file headers
+
+
+2.6 (2014-08-27)
+----------------
+
+* First release for Moodle 2.6
